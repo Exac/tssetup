@@ -1,0 +1,4 @@
+--register ts-node/register
+--require ./test/bootstrap.test.ts
+--recursive
+--exit
