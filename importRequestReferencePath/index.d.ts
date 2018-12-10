@@ -1,6 +1,6 @@
-import * as express from 'express';
+export {};
 
-declare module 'express' {
+declare module "express" {
   export interface Request {
     myCustomProperty?: string;
   }
